@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace TaskWindow
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для TaskWin.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class TaskWin : Window
     {
-        public MainWindow()
+        public TaskWin()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            TaskWin taskWindow = new TaskWin();
-            taskWindow.Show();
-            this.Hide();
         }
     }
 }
