@@ -29,7 +29,7 @@ namespace TaskWindow
         {
             TaskWin taskWindow = new TaskWin();
             taskWindow.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }
